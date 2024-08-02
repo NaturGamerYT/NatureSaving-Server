@@ -1,0 +1,26 @@
+{
+  "name": "naturesaving-server",
+  "version": "0.0.1 BETA",
+  "description": "External data saving",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "homepage": "https://nature-3.gitbook.io/naturesaving",
+  "scripts": {
+    "build": "tsup"
+  },
+  "keywords": [
+    "database",
+    "saving",
+    "db",
+    "naturesaving"
+  ],
+  "author": "naturgamer_yt",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^22.1.0",
+    "express": "^4.19.2",
+    "tsup": "^8.2.4",
+    "typescript": "^5.5.4"
+  }
+}
